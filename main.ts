@@ -3,6 +3,7 @@
 /// <reference path="abstract_factory_case/demo.ts" />
 /// <reference path="factory_method/demo.ts" />
 /// <reference path="builder/demo.ts" />
+/// <reference path="builder_case/demo.ts" />
 /// <reference path="prototype/demo.ts" />
 /// <reference path="adapter/demo.ts" />
 /// <reference path="bridge/demo.ts" />
@@ -40,6 +41,7 @@ namespace Patterns {
 					"  2c: Abstract factory case \n" +
 					"  3: Factory method \n" +
 					"  4: Builder \n" +
+					"  4c: Builder case \n" +
 					"  5: Prototype \n\n" +
 					"= Structural Patterns == \n" +
 					"  6: Adapter \n" +
@@ -83,6 +85,7 @@ namespace Patterns {
 				case '2c' : show(AbstractFactoryCase); break;
 				case 3 : show(FactoryMethodPattern); break;
 				case 4 : show(BuilderPattern); break;
+				case '4c' : show(BuilderCase); break;
 				case 5 : show(PrototypePattern); break;
 				case 6 : show(AdapterPattern); break;
 				case 7 : show(BridgePattern); break;
