@@ -9,6 +9,7 @@
 /// <reference path="prototype/demo.ts" />
 /// <reference path="prototype_case/demo.ts" />
 /// <reference path="adapter/demo.ts" />
+/// <reference path="adapter_case/demo.ts" />
 /// <reference path="bridge/demo.ts" />
 /// <reference path="composite/demo.ts" />
 /// <reference path="decorator/demo.ts" />
@@ -51,6 +52,7 @@ namespace Patterns {
 					"  5c: Prototype case \n\n" +
 					"= Structural Patterns == \n" +
 					"  6: Adapter \n" +
+					"  6c: Adapter case \n" +
 					"  7: Bridge \n" +
 					"  8: Composite \n" +
 					"  9: Decorator \n" +
@@ -97,6 +99,7 @@ namespace Patterns {
 				case 5 : show(PrototypePattern); break;
 				case '5c' : show(PrototypeCase); break;
 				case 6 : show(AdapterPattern); break;
+				case '6c' : show(AdapterCase); break;
 				case 7 : show(BridgePattern); break;
 				case 8 : show(CompositePattern); break;
 				case 9 : show(DecoratorPattern); break;
