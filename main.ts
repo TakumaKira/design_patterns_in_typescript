@@ -6,6 +6,7 @@
 /// <reference path="builder/demo.ts" />
 /// <reference path="builder_case/demo.ts" />
 /// <reference path="prototype/demo.ts" />
+/// <reference path="prototype_case/demo.ts" />
 /// <reference path="adapter/demo.ts" />
 /// <reference path="bridge/demo.ts" />
 /// <reference path="composite/demo.ts" />
@@ -44,7 +45,8 @@ namespace Patterns {
 					"  3c: Factory method case \n" +
 					"  4: Builder \n" +
 					"  4c: Builder case \n" +
-					"  5: Prototype \n\n" +
+					"  5: Prototype \n" +
+					"  5c: Prototype case \n\n" +
 					"= Structural Patterns == \n" +
 					"  6: Adapter \n" +
 					"  7: Bridge \n" +
@@ -90,6 +92,7 @@ namespace Patterns {
 				case 4 : show(BuilderPattern); break;
 				case '4c' : show(BuilderCase); break;
 				case 5 : show(PrototypePattern); break;
+				case '5c' : show(PrototypeCase); break;
 				case 6 : show(AdapterPattern); break;
 				case 7 : show(BridgePattern); break;
 				case 8 : show(CompositePattern); break;
