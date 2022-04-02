@@ -1,4 +1,5 @@
 /// <reference path="singleton/demo.ts" />
+/// <reference path="singleton_case/demo.ts" />
 /// <reference path="abstract_factory/demo.ts" />
 /// <reference path="abstract_factory_case/demo.ts" />
 /// <reference path="factory_method/demo.ts" />
@@ -39,6 +40,7 @@ namespace Patterns {
 	function printMenu() : void {
 		var menu =	"= Creational Patterns == \n" +
 					"  1: Singleton \n" +
+					"  1c: Singleton case \n" +
 					"  2: Abstract factory \n" +
 					"  2c: Abstract factory case \n" +
 					"  3: Factory method \n" +
@@ -85,6 +87,7 @@ namespace Patterns {
 	   	rl.question("Which pattern would you like to check?   ", function(answer) {
 			switch(answer) {
 				case 1 : show(SingletonPattern); break;
+				case '1c' : show(SingletonCase); break;
 				case 2 : show(AbstractFactoryPattern); break;
 				case '2c' : show(AbstractFactoryCase); break;
 				case 3 : show(FactoryMethodPattern); break;
