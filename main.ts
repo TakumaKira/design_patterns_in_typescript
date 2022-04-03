@@ -15,6 +15,7 @@
 /// <reference path="composite/demo.ts" />
 /// <reference path="composite_case/demo.ts" />
 /// <reference path="decorator/demo.ts" />
+/// <reference path="decorator_case/demo.ts" />
 /// <reference path="facade/demo.ts" />
 /// <reference path="flyweight/demo.ts" />
 /// <reference path="proxy/demo.ts" />
@@ -60,6 +61,7 @@ namespace Patterns {
 					"  8: Composite \n" +
 					"  8c: Composite case \n" +
 					"  9: Decorator \n" +
+					"  9c: Decorator case \n" +
 					" 10: Facade \n" +
 					" 11: Flyweight \n" +
 					" 12: Proxy \n\n" +
@@ -109,6 +111,7 @@ namespace Patterns {
 				case 8 : show(CompositePattern); break;
 				case '8c' : show(CompositeCase); break;
 				case 9 : show(DecoratorPattern); break;
+				case '9c' : show(DecoratorCase); break;
 				case 10 : show(FacadePattern); break;
 				case 11 : show(FlyweightPattern); break;
 				case 12 : show(ProxyPattern); break;
