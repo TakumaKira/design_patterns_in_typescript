@@ -13,6 +13,7 @@
 /// <reference path="bridge/demo.ts" />
 /// <reference path="bridge_case/demo.ts" />
 /// <reference path="composite/demo.ts" />
+/// <reference path="composite_case/demo.ts" />
 /// <reference path="decorator/demo.ts" />
 /// <reference path="facade/demo.ts" />
 /// <reference path="flyweight/demo.ts" />
@@ -57,6 +58,7 @@ namespace Patterns {
 					"  7: Bridge \n" +
 					"  7c: Bridge case \n" +
 					"  8: Composite \n" +
+					"  8c: Composite case \n" +
 					"  9: Decorator \n" +
 					" 10: Facade \n" +
 					" 11: Flyweight \n" +
@@ -105,6 +107,7 @@ namespace Patterns {
 				case 7 : show(BridgePattern); break;
 				case '7c' : show(BridgeCase); break;
 				case 8 : show(CompositePattern); break;
+				case '8c' : show(CompositeCase); break;
 				case 9 : show(DecoratorPattern); break;
 				case 10 : show(FacadePattern); break;
 				case 11 : show(FlyweightPattern); break;
