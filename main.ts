@@ -21,6 +21,7 @@
 /// <reference path="flyweight/demo.ts" />
 /// <reference path="flyweight_case/demo.ts" />
 /// <reference path="proxy/demo.ts" />
+/// <reference path="proxy_case/demo.ts" />
 /// <reference path="chain_of_responsibility/demo.ts" />
 /// <reference path="command/demo.ts" />
 /// <reference path="interpreter/demo.ts" />
@@ -68,7 +69,8 @@ namespace Patterns {
 					" 10c: Facade case \n" +
 					" 11: Flyweight \n" +
 					" 11c: Flyweight case \n" +
-					" 12: Proxy \n\n" +
+					" 12: Proxy \n" +
+					" 12c: Proxy case \n\n" +
 					"= Behavioral Patterns == \n" +
 					" 13: Chain of responsibility \n" +
 					" 14: Command \n" +
@@ -121,6 +123,7 @@ namespace Patterns {
 				case 11 : show(FlyweightPattern); break;
 				case '11c' : show(FlyweightCase); break;
 				case 12 : show(ProxyPattern); break;
+				case '12c' : show(ProxyCase); break;
 				case 13 : show(ChainOfResponsibilityPattern); break;
 				case 14 : show(CommandPattern); break;
 				case 15 : show(InterpreterPattern); break;
