@@ -23,6 +23,7 @@
 /// <reference path="proxy/demo.ts" />
 /// <reference path="proxy_case/demo.ts" />
 /// <reference path="chain_of_responsibility/demo.ts" />
+/// <reference path="chain_of_responsibility_case/demo.ts" />
 /// <reference path="command/demo.ts" />
 /// <reference path="interpreter/demo.ts" />
 /// <reference path="iterator/demo.ts" />
@@ -73,6 +74,7 @@ namespace Patterns {
 					" 12c: Proxy case \n\n" +
 					"= Behavioral Patterns == \n" +
 					" 13: Chain of responsibility \n" +
+					" 13c: Chain of responsibility case \n" +
 					" 14: Command \n" +
 					" 15: Interpreter \n" +
 					" 16: Iterator \n" +
@@ -125,6 +127,7 @@ namespace Patterns {
 				case 12 : show(ProxyPattern); break;
 				case '12c' : show(ProxyCase); break;
 				case 13 : show(ChainOfResponsibilityPattern); break;
+				case '13c' : show(ChainOfResponsibilityCase); break;
 				case 14 : show(CommandPattern); break;
 				case 15 : show(InterpreterPattern); break;
 				case 16 : show(IteratorPattern); break;
