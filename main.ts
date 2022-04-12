@@ -27,6 +27,7 @@
 /// <reference path="command/demo.ts" />
 /// <reference path="command_case/demo.ts" />
 /// <reference path="interpreter/demo.ts" />
+/// <reference path="interpreter_case/demo.ts" />
 /// <reference path="iterator/demo.ts" />
 /// <reference path="mediator/demo.ts" />
 /// <reference path="memento/demo.ts" />
@@ -79,6 +80,7 @@ namespace Patterns {
 					" 14: Command \n" +
 					" 14c: Command case \n" +
 					" 15: Interpreter \n" +
+					" 15c: Interpreter case \n" +
 					" 16: Iterator \n" +
 					" 17: Mediator \n" +
 					" 18: Memento \n" +
@@ -133,6 +135,7 @@ namespace Patterns {
 				case 14 : show(CommandPattern); break;
 				case '14c' : show(CommandCase); break;
 				case 15 : show(InterpreterPattern); break;
+				case '15c' : show(InterpreterCase); break;
 				case 16 : show(IteratorPattern); break;
 				case 17 : show(MediatorPattern); break;
 				case 18 : show(MementoPattern); break;
