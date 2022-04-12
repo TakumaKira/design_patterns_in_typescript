@@ -29,6 +29,7 @@
 /// <reference path="interpreter/demo.ts" />
 /// <reference path="interpreter_case/demo.ts" />
 /// <reference path="iterator/demo.ts" />
+/// <reference path="iterator_case/demo.ts" />
 /// <reference path="mediator/demo.ts" />
 /// <reference path="memento/demo.ts" />
 /// <reference path="observer/demo.ts" />
@@ -82,6 +83,7 @@ namespace Patterns {
 					" 15: Interpreter \n" +
 					" 15c: Interpreter case \n" +
 					" 16: Iterator \n" +
+					" 16c: Iterator case \n" +
 					" 17: Mediator \n" +
 					" 18: Memento \n" +
 					" 19: Observer \n" +
@@ -137,6 +139,7 @@ namespace Patterns {
 				case 15 : show(InterpreterPattern); break;
 				case '15c' : show(InterpreterCase); break;
 				case 16 : show(IteratorPattern); break;
+				case '16c' : show(IteratorCase); break;
 				case 17 : show(MediatorPattern); break;
 				case 18 : show(MementoPattern); break;
 				case 19 : show(ObserverPattern); break;
