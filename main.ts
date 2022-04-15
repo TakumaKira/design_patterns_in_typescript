@@ -33,6 +33,7 @@
 /// <reference path="mediator/demo.ts" />
 /// <reference path="mediator_case/demo.ts" />
 /// <reference path="memento/demo.ts" />
+/// <reference path="memento_case/demo.ts" />
 /// <reference path="observer/demo.ts" />
 /// <reference path="state/demo.ts" />
 /// <reference path="strategy/demo.ts" />
@@ -88,6 +89,7 @@ namespace Patterns {
 					" 17: Mediator \n" +
 					" 17c: Mediator case \n" +
 					" 18: Memento \n" +
+					" 18c: Memento case \n" +
 					" 19: Observer \n" +
 					" 20: State \n" +
 					" 21: Strategy \n" +
@@ -145,6 +147,7 @@ namespace Patterns {
 				case 17 : show(MediatorPattern); break;
 				case '17c' : show(MediatorCase); break;
 				case 18 : show(MementoPattern); break;
+				case '18c' : show(MementoCase); break;
 				case 19 : show(ObserverPattern); break;
 				case 20 : show(StatePattern); break;
 				case 21 : show(StrategyPattern); break;
