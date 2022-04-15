@@ -35,6 +35,7 @@
 /// <reference path="memento/demo.ts" />
 /// <reference path="memento_case/demo.ts" />
 /// <reference path="observer/demo.ts" />
+/// <reference path="observer_case/demo.ts" />
 /// <reference path="state/demo.ts" />
 /// <reference path="strategy/demo.ts" />
 /// <reference path="template_method/demo.ts" />
@@ -91,6 +92,7 @@ namespace Patterns {
 					" 18: Memento \n" +
 					" 18c: Memento case \n" +
 					" 19: Observer \n" +
+					" 19c: Observer case \n" +
 					" 20: State \n" +
 					" 21: Strategy \n" +
 					" 22: Template method \n" +
@@ -149,6 +151,7 @@ namespace Patterns {
 				case 18 : show(MementoPattern); break;
 				case '18c' : show(MementoCase); break;
 				case 19 : show(ObserverPattern); break;
+				case '19c' : show(ObserverCase); break;
 				case 20 : show(StatePattern); break;
 				case 21 : show(StrategyPattern); break;
 				case 22 : show(TemplateMethodPattern); break;
