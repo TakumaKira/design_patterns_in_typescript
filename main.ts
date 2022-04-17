@@ -41,6 +41,7 @@
 /// <reference path="strategy/demo.ts" />
 /// <reference path="strategy_case/demo.ts" />
 /// <reference path="template_method/demo.ts" />
+/// <reference path="template_method_case/demo.ts" />
 /// <reference path="visitor/demo.ts" />
 //
 //
@@ -100,6 +101,7 @@ namespace Patterns {
 					" 21: Strategy \n" +
 					" 21c: Strategy case \n" +
 					" 22: Template method \n" +
+					" 22c: Template method case \n" +
 					" 23: Visitor \n";
 
 
@@ -161,6 +163,7 @@ namespace Patterns {
 				case 21 : show(StrategyPattern); break;
 				case '21c' : show(StrategyCase); break;
 				case 22 : show(TemplateMethodPattern); break;
+				case '22c' : show(TemplateMethodCase); break;
 				case 23 : show(VisitorPattern); break;
 				default : break;
 			}
