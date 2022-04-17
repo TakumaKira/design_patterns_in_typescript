@@ -43,6 +43,7 @@
 /// <reference path="template_method/demo.ts" />
 /// <reference path="template_method_case/demo.ts" />
 /// <reference path="visitor/demo.ts" />
+/// <reference path="visitor_case/demo.ts" />
 //
 //
 //
@@ -102,7 +103,8 @@ namespace Patterns {
 					" 21c: Strategy case \n" +
 					" 22: Template method \n" +
 					" 22c: Template method case \n" +
-					" 23: Visitor \n";
+					" 23: Visitor \n" +
+					" 23c: Visitor case \n";
 
 
 		console.log("\n\n");
@@ -165,6 +167,7 @@ namespace Patterns {
 				case 22 : show(TemplateMethodPattern); break;
 				case '22c' : show(TemplateMethodCase); break;
 				case 23 : show(VisitorPattern); break;
+				case '23c' : show(VisitorCase); break;
 				default : break;
 			}
 			rl.close();
